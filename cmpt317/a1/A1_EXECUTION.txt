@@ -1,0 +1,18 @@
+How to run Mike's Code for A1
+
+0. My solution requires Python 3.X.  Nothing special.
+1. Download all the Python code.
+2. At the UNIX prompt:
+     UNIX$ python3 runCD.py
+     usage: python runCD examplefile solver timelimit [depthlimit]
+
+     solver can be: 'DFS' 'BFS' 'DLS' 'IDS' 'GBFS' 'UCS' 'AStar'
+     if solver is 'DLS' you must provide an additional depthlimit argument
+
+     timelimit in seconds
+
+  e.g. 
+     UNIX$ python3 runCD.py simple_examples.txt IDS 1
+     <output>
+
+
